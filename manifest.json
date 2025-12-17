@@ -1,0 +1,22 @@
+{
+  "name": "চুদলিংপং স্যার",
+  "short_name": "AI Tutor",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "description": "A multi-subject AI tutor for Math, Physics, Chemistry, and English with image analysis and Banglish support.",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "চুদলিংপং-স্যার",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "@google/genai": "latest",
+    "react-markdown": "9.0.1",
+    "remark-math": "6.0.0",
+    "rehype-katex": "7.0.0",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
