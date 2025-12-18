@@ -11,7 +11,7 @@
     <!-- PWA Manifest -->
     <link rel="manifest" href="./manifest.json">
     
-    <!-- Favicons - Comprehensive list for different browsers/devices -->
+    <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="./logo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./logo.png">
     <link rel="icon" type="image/png" href="./logo.png">
@@ -20,7 +20,7 @@
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- KaTeX CSS for rendering math formulas -->
+    <!-- KaTeX CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
     <style>
       html, body, #root {
@@ -28,15 +28,14 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        overflow: hidden; /* Prevents body scroll */
-        overscroll-behavior: none; /* Prevents pull-to-refresh/bounce on mobile */
+        overflow: hidden;
+        overscroll-behavior: none;
       }
       body {
         font-family: 'Inter', sans-serif;
-        background-color: #0f172a; /* Slate 900 */
-        color: #e2e8f0; /* Slate 200 */
+        background-color: #0f172a;
+        color: #e2e8f0;
       }
-      /* Custom scrollbar for webkit */
       ::-webkit-scrollbar {
         width: 6px;
         height: 6px;
@@ -69,7 +68,8 @@
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Point to .js for static hosting compatibility -->
+    <script type="module" src="./index.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
